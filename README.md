@@ -1,3 +1,7 @@
+## Screen-shot Output :
+### DEsktop View
+![image](https://user-images.githubusercontent.com/101569259/170855857-47128c89-dae0-49d3-ad80-072329611af9.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
