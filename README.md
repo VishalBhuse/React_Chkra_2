@@ -1,6 +1,9 @@
 ## Screen-shot Output :
-### DEsktop View
+### `Desktop View`
 ![image](https://user-images.githubusercontent.com/101569259/170855857-47128c89-dae0-49d3-ad80-072329611af9.png)
+
+### `Mobile View`
+![image](https://user-images.githubusercontent.com/101569259/170855944-a795d504-aa49-4d0c-9776-fed3367f22fa.png)
 
 # Getting Started with Create React App
 
