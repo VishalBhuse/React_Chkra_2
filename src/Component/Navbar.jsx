@@ -68,7 +68,7 @@ import {
             spacing={6}>
             <Button
               as={'a'}
-              fontSize={'sm'}
+              fontSize={'14px'}
               fontWeight={400}
               variant={'link'}
               href={'#'}>
@@ -76,7 +76,7 @@ import {
             </Button>
             <Button
               display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
+              fontSize={'14px'}
               fontWeight={600}
               color={'white'}
               width={'100%'}
@@ -98,7 +98,6 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
@@ -115,7 +114,6 @@ import {
                   color={'grey.300'}
                   _hover={{
                     textDecoration: 'none',
-                    color: linkHoverColor,
                   }}>
                   {navItem.label}
                 </Link>
@@ -123,6 +121,7 @@ import {
   
               {navItem.children && (
                 <PopoverContent
+                variant={'unstyled'}
                   border={0}
                   boxShadow={'xl'}
                   bg={popoverContentBgColor}
@@ -240,12 +239,6 @@ import {
     );
   };
   
-  // interface NavItem {
-  //   label: string;
-  //   subLabel?: string;
-  //   children?: Array<NavItem>;
-  //   href?: string;
-  // }
   
   const NAV_ITEMS = [
     {
